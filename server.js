@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-const db = require('./db');
+const db = require('./configs/db');
 require('dotenv').config();
 
 const bodyParser = require('body-parser'); 
